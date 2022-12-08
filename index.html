@@ -1,0 +1,319 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0" /> -->
+    <!-- Font-awesome Cdn  -->
+    <script src="https://kit.fontawesome.com/4be142e33a.js" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/index.css">
+    <title>Volton</title>
+</head>
+
+<body>
+
+    <!-- Navbar Section -->
+    <section id="nav-section-1" class="container-fluid px-sm-5 px-0">
+        <div class="navbar mt-0 pt-2">
+            <img class="" id="brand-logo" src="Assets/images/company_logo.png" alt="">
+            <div class="nav-text" id="nav-txt">
+                <h4 id="nav-title" class="text-center">Welcome to the Online Application</h4>
+                <p class="text-center" id="nav-subtitle">Choose what interests you</p>
+            </div>
+            <img class="" id="call-logo" src="Assets/images/call_icon.png" alt="">
+        </div>
+    </section>
+    <!-- Navbar Section End-->
+
+    <!-- stepperSection Section  -->
+    <section id="stepperSection" class="container-fluid px-sm-5 px-0 mt-4 mb-5 pb-2 ">
+        <div class="row mx-0 d-flex mb-2">
+            <div id="back-to-home" class="ml-sm-0  col-md-3 col-12">
+                <p class="align-items-baseline float-md-left  text-nowrap ml-sm-0 ml-3">
+                    <i class="fa fa-angle-left back-toHome-arrow" aria-hidden="true"></i>
+                    <a id="reloadPage" href="" class="">Back to home page</a>
+                </p>
+            </div>
+            <!-- Circles which indicates the steps of the form: -->
+            <div class="col-md-6 col-12 d-flex justify-content-center pl-md-0 ml-sm-1 text-nowrap" id="stepper">
+                <span class="step d-none">0</span>
+                <span id="step1" class="step">1</span>
+                <hr>
+                <span class="step">2</span>
+                <hr>
+                <span class="step">3</span>
+                <hr>
+                <span class="step">4</span>
+            </div>
+        </div>
+    </section>
+    <!-- stepperSection Section End -->
+
+    <!-- =======|||||======= PARENT DIV FOR ALL TABS =======|||||======= -->
+    <div id="parent-div" class="container mb-0 pb-0">
+
+        <!-- ************ TAB ONE ************** -->
+        <div id="ConnectionTypeTab" class="tab container">
+            <!-- Cards Section  -->
+            <div class="justify-content-center my-5 ">
+                <div class="">
+                    <div id="cards-row" class="row cards-row d-flex align-items-stretch justify-content-center ">
+                        <!-- Data from Json  -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ************ TAB Two ************** -->
+        <div id="propertyTypeTab" class="tab container px-0">
+            <div class="tab2-main-row px-md-5 px-0">
+                <div class="col-12">
+                    <div class="card-title pb-0 mb" id="txt-intersted">
+                        <p>I am intersted in:</p>
+                    </div>
+                    <div id="tab2-cards-row" class="row cards-row d-flex justify-content-center ">
+                        <!-- Data from json  -->
+                    </div>
+                    <section id="from-display-section" class="mt-3">
+
+                        <!-- Home Card Section  -->
+                        <div id="home-form" class="tab2-forms">
+                            <!-- Some data from javascript and some from Json  -->
+                        </div>
+
+                        <!-- Business  Section  -->
+                        <div id="business-form" class="tab2-forms">
+                            <!-- Some data from javascript and some from Json  -->
+                        </div>
+
+                        <!-- Apartment  Section  -->
+                        <div id="apartment-form" class="tab2-forms">
+                            <!-- Some data from javascript and some from Json  -->
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+
+        <!-- ************ TAB Three ************** -->
+        <div id="packageTypeTab" class="tab conatiner px-0">
+            <section class="pt-0 pb-4 mx-sm-2">
+                <div class="" id="carousel-div">
+                    <div class="row mx-0" id="carousel-navigate-div">
+                        <div class="col-sm-8 col-12" id="daily-div">
+                            <div class="px-sm-4 px-0"><button class="btn mb-2" id="daily-btn">Daily</button></div>
+                            <div class="">
+                                <p id="daily-text-1" class="font-weight-bold mb-1">Choose the package that suits you</p>
+                                <p id="daily-text-2" class=" mb-4">Read the general conditions <b>here</b></p>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 col-12 pb-sm-0 pb-3 pr-1  navigat-icon text-right">
+                            <i class="fa fx- fa-angle-left mr-sm-1 float-sm-none float-left"
+                                href="#carouselExampleIndicators2" role="button" data-slide="prev"></i>
+                            <i class="fa fa-thin fa-angle-right mr-sm-1 mr-2" href="#carouselExampleIndicators2"
+                                role="button" data-slide="next"></i>
+                        </div>
+                        <div class="col-lg-9 col-md-12 col-sm-12">
+                            <div id="carouselExampleIndicators2" class="carousel slide" data-interval="false"
+                                data-ride="">
+                                <div class="carousel-inner" id="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <div class="d-flex justify-content-center" id="carousel-row1">
+                                            <!-- Data from json  -->
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="d-flex justify-content-center" id="carousel-row2">
+                                            <!-- data from json -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- ************ TAB Four ************** -->
+        <div id="warrantyTab" class="tab container px-0">
+            <section class="pt-0 pb-5">
+                <div class="" id="warranty-main-div">
+                    <div id="summry">
+                        <p class="page-text font-weight-bold" id="warranty-title"> Warranty Calculation</p>
+                        <p class="page-text">To calculate the Guarantee, fill in the guarantee you were charged to your
+                            previous supplier (i) and the agreed power (KVA) (i) of your supply. More about the Warranty
+                            Policy <b>here</b>
+                        </p>
+                    </div>
+                    <div id="warranty-input" class="">
+                        <!-- Input field one  -->
+                        <div id="field-1">
+                            <div class="field-text">
+                                <p class="page-text">Previous Supplier Warranty &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
+                                    &nbsp; &nbsp; &nbsp; <i class="fa fa-solid fa-info"></i></p>
+                            </div>
+                            <div class="field-input">
+                                <p id="euro-text">Euro</p><input placeholder="€" type="text" id="euro_input"
+                                    name="previousSupplierWarranty">
+                            </div>
+                        </div>
+                        <!-- Input field one  -->
+
+                        <!-- Input field two  -->
+                        <div id="field-2" class="mt-5">
+                            <div class="field-text">
+                                <p class="page-text">Agreed supply power &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                                    &nbsp;&nbsp; &nbsp; <i class="fa fa-solid fa-info"></i></p>
+                            </div>
+                            <div class="field-input">
+                                <label>
+                                    <select id="aggreedSupplyPower">
+                                        <option selected> 15 </option>
+                                        <option>16</option>
+                                        <option>17</option>
+                                        <option>18</option>
+                                        <option>19</option>
+                                        <option>20</option>
+                                    </select>
+                                </label>
+                            </div>
+                        </div>
+                        <!-- Input field two  -->
+                    </div>
+                    <!-- warranty-input division  End -->
+
+                    <!-- Zero guarantee Div  -->
+                    <div id="zero-g" class="mt-5">
+                        <div class="page-text">
+                            <p>Your guarantee will be zero:</p>
+                            <!-- term 1 -->
+                            <div id="term-1" class="terms">
+                                <p class="mb-0">1. By choosing the bank standing order as the account payment method and
+                                    activating* it before the expiry of your first Account.</p>
+                                <p class="comment">*To activate the bank standing order, you should contact your bank
+                                </p>
+                            </div>
+                            <!-- term 1 -->
+                            <div id="term-2" class="terms">
+                                <p class="mb-0">2. By attaching* the last paid invoice to your previous supplier</p>
+                                <p class="comment">*it should be attached together with the other supporting documents
+                                    thatwill be requested in the next step</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Zero guarantee Div End -->
+                </div>
+            </section>
+        </div>
+
+        <!-- ************ TAB Five ************** -->
+        <div id="onlineApplicationTab" class="tab pb-5 container px-0">
+            <section id="form-section">
+                <div id="tab-5-container" class="">
+                    <div class="main-text pb-0 text-center" id="main-text">
+                        <p class="font-weight-bold">Find out the supporting documents you will need to complete your
+                            online application!</p>
+                    </div>
+                    <div class="mt-2 justify-content-center " id="tab-5-content-box">
+                        <div id="tab5-cards" class="row d-flex pl-2 mb-lg-0 mb-md-2 mb-sm-2 mb-2 justify-content-center"
+                            id="content-row">
+                            <!-- Data from json  -->
+                        </div>
+                        <div id="" class="row mt-0 pt-0 d-flex justify-content-center px-sm-2 px-4">
+                            <div id="inner-content" class="px-3 py-3 mx-2">
+                                <p class="content-heading">Necessary Documents:</p>
+                                <div id="terms">
+                                    <!-- Data from json  -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- ************ TAB Six ************** -->
+        <div id="thankyouTab" class="tab container">
+            <section id="form-section" class="">
+                <div class=" text-center align-items-center">
+                    <div class="main-text pb-0 mb px-4 h-100" id="tankyou-box">
+                        <h1 class="font-weight-bold" id="thankyou">Thank You!</h1>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- ************ Next Prev Buttons ************** -->
+        <div class="container px-0 mb-0">
+            <div class="row bottom-buttons  px-md-0 px-2 mx-2">
+                <div class="col-sm-6 col-12 my-2 text-center px-md-5 btn_left_col" id="">
+                    <button class="btn btn-primary  previous-btn" onclick="nextPrev(-1)" id="prevBtn">
+                        <i class="fa fa-angle-left next-btn-arrow" aria-hidden="true"></i> Previous
+                    </button>
+                </div>
+                <div class="col-sm-6 col-12 my-2 text-center px-md-5 btn_right_col" id="">
+                    <button class="btn btn-primary next-btn" onclick="nextPrev(1)" disabled id="nextBtn">
+                        Next <i class="fa fa-angle-right next-btn-arrow"></i>
+                    </button>
+                </div>
+
+            </div>
+        </div>
+        <!-- ************ Next Prev Buttons End ************** -->
+
+    </div>
+    <!-- =======|||||======= PARENT DIV FOR ALL TABS END=======|||||======= -->
+
+    <!-- ** Footer Section ** -->
+    <section class="footer-section mb-2 px-0 container-fluid">
+        <div class=" text-center">
+            <img id="footer-png" src="Assets/images/middle_footer.png" alt="">
+        </div>
+        <footer class="container-fluid px-1 " id="footer-div-1">
+            <div class="row mx-0 px-0 align-items-end justify-content-between">
+                <div class="col-md-4 d-md-block d-none px-0 py-0 ">
+                    <div class="">
+                        <img class="img-fluid footer-img " src="Assets/images/left_footer.png">
+                    </div>
+                </div>
+                <div class="col-md-4 col-12 pt-md-2 pt-4 ">
+                    <div class="footer-text text-center align-items-md-center align-items-sm-end ">
+                        <div>
+                            <p class="my-lg-2 mt-lg-3 my-md-1  mt-md-3 my-2"><a href="#">Contact</a></p>
+                            <p class="my-lg-2 my-md-1  my-2"><a href="#">Privacy</a></p>
+                            <p class=" mb-md-1  mb-1">Copyright 2020 volton.gr | All Rights Reserved |
+                                Competent Regulatory Authority: RAE</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 d-md-block d-none px-0 py-0">
+                    <div class="">
+                        <img class="img-fluid  footer-img float-right" src="Assets/images/right_footer.png">
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </section>
+    <!-- ** Footer Section End ** -->
+
+    <!-- ****************All Script Tags****************** -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+    <script src="/JSON/data.json"></script>
+    <script src="/Js/index.js"></script>
+    <!-- <script src="/Js/index2.js"></script> -->
+</body>
+
+</html>

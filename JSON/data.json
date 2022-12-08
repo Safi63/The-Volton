@@ -1,0 +1,698 @@
+var jsonObject = {
+    "connectionType_radio_Cards": [
+        {
+            "id": "connection_card1",
+            "val":"Electricity",
+            "text": "Electricity",
+            "image": "/Assets/images/electricity_icon.png",
+            "cardClass": "card-img pt-3 pb-3"
+        },
+        {
+            "id": "connection_card2",
+            "val":"Natural Gas",
+            "text": "Natural gas",
+            "image": "/Assets/images/gas_icon.png",
+            "cardClass": "card-img pt-3 pb-3"
+        },
+        {
+            "id": "connection_card3",      
+            "val":"Electricity and Natural gas",
+            "text": "Electricity and Natural gas",
+            "image": "/Assets/images/electricity_gas_icon.png",
+            "cardClass": "card-img pb-5 pt-0 "
+        },
+    ],
+
+    // ***** Tab 2 Json *****
+    "propertyTypeCards":[
+        {
+            "id": "property_card1",
+            "val":"Home",
+            "text": "Home",
+            "image": "/Assets/images/home.png",
+        },
+        {
+            "id": "property_card2",
+            "val":"The Business",
+            "text": "The business",
+            "image": "/Assets/images/company.png",
+        },
+        {
+            "id": "property_card3",      
+            "val": "Common area of an apartment building",
+            "text": "Common area of an apartment building",
+            "image": "/Assets/images/apartment.png",
+        },
+    ],
+    
+    "homeFormGroup1":[
+        {
+            "id":"btn-yes",
+            "val":"Yes",
+        },
+        {
+            "id":"btn-no",
+            "val":"No",
+        }
+    ],   
+
+     "homeFormGroup2":[
+        {
+            "id":"btn-yes2",
+            "val":"Yes",
+        },
+        {
+            "id":"btn-no2",
+            "val":"No",
+        }
+    ], 
+    "homeFormGroup3":[
+        {
+            "id":"btn-change1",
+            "val":"Change provider",
+        },
+        {
+            "id":"btn-connection1",
+            "val":"New Connection",
+        }, 
+        {
+            "id":"btn-re-elect1",
+            "val":"Re-electrification",
+        },
+    ], 
+    "homeFormGroup4":[
+        {
+            "id":"btn-daily",
+            "val":"Daily",
+        },
+        {
+            "id":"btn-noct",
+            "val":"Nocturnal",
+        }, 
+        {
+            "id":"btn-re-elect1",
+            "val":"Re-electrification",
+        },
+    ], 
+    "businessFormGroup1":[
+        {
+            "id":"btn-upto",
+            "val":"Up to 25KVa (C-21)",
+        },
+        {
+            "id":"btn-from",
+            "val":"From 25 to 250 kVa (C-22)",
+        }, 
+        {
+            "id":"btn-re-elect2",
+            "val":"Re-electrification",
+        },
+    ],
+    "apartmentFormGroup1":[
+        {
+            "id":"btn-yes3",
+            "val":"Yes",
+        },
+        {
+            "id":"btn-no3",
+            "val":"No",
+        }
+    ], 
+    "apartmentFormGroup2":[
+        {
+            "id":"btn-change",
+            "val":"Change provider",
+        },
+        {
+            "id":"btn-connection",
+            "val":"New Connection",
+        }, 
+        {
+            "id":"btn-re-elect1",
+            "val":"Re-electrification3",
+        },
+    ],
+    // ***** Tab 2 Json End *****
+
+    // ***** Tab 3 Json *********
+
+    "carouselCards":[
+        {
+            "id":"carousel-card1",
+            "val":"Volton Unique Flexi Plus",
+            "image":"/Assets/images/day_home_flexi.png"
+        },
+        
+        {
+            "id":"carousel-card2",
+            "val":"carousel-card2",
+            "image":"/Assets/images/day_home_flat.png"
+        },
+        
+        {
+            "id":"carousel-card3",
+            "val":"carousel-card3",
+            "image":"/Assets/images/day_home_flexi_plus.png"
+        },
+        {
+            "id":"carousel-card4",
+            "val":"carousel-card4",
+            "image":"/Assets/images/day_home_flexi_plus.png"
+        },
+        
+        {
+            "id":"carousel-card5",
+            "val":"carousel-card5",
+            "image":"/Assets/images/day_home_flat.png"
+        },
+        
+        {
+            "id":"carousel-card6",
+            "val":"carousel-card6",
+            "image":"/Assets/images/day_home_flexi.png"
+        },
+        // {
+        //     "id":"carousel-card7",
+        //     "val":"carousel-card7",
+        //     "image":"/Assets/images/day_home_free.png"
+        // },{
+        //     "id":"carousel-card8",
+        //     "val":"carousel-card8",
+        //     "image":"/Assets/images/day_home_flexi.png"
+        // },
+    ],
+
+    // ***** Tab 3 Json End *****
+
+    // ***** Tab 5 Json  *****
+    "tab5Cards":[
+        {
+            "id":"t5c1",
+            "textId":"t5t1",
+            "val":"Change provider",
+            "subText":"The meter is in my name"
+        },
+        {
+            "id":"t5c2",
+            "textId":"t5t2",
+            "val":"Change provider",
+            "subText":"The meter is in another name"
+        },
+        {
+            "id":"t5c3",
+            "textId":"t5t3",
+            "val":"Initial Electrification/New connection"
+        },
+        {
+            "id":"t5c4",
+            "textId":"t5t4",
+            "val":"Re-electrification",
+        },
+        
+    ],
+    "tab5Content":[
+        {
+            "item":" <div class='content-details'><div><p class='point mb-0'>1. Identity</p><p class='mt-0 point-detail px-3'>Photocopy of ID (2 side) of Passport or ResidencePermit or Driver's License</p></div><div><p class='point mb-0'>2. Account</p><ul class='point-detail px-4'> <li>Copy of list bill</li><li>Proof of payment if the due date has passed</li></ul></div></div>",
+        },
+         {
+            "item":" <div class='content-details'><div><p class='point mb-0'>1. Identity</p><p class='mt-0 point-detail px-3'>Photocopy of ID (2 side) of Passport or ResidencePermit or Driver's License</p></div><div><p class='point mb-0'>2. Account</p><ul class='point-detail px-4'> <li>Copy of list bill</li><li>Proof of payment if the due date has passed</li> <li>Lorem ipsum dolor sit amet.</li></ul></div></div>",
+        },
+         {
+            "item":" <div class='content-details'><div><p class='point mb-0'>1. Identity</p><p class='mt-0 point-detail px-3'>Photocopy of ID (2 side) of Passport or ResidencePermit or Driver's License</p></div><div>  <p class='point mb-0'>2. Connection contract with DEDDIE</p><p class='mt-0 point-detail px-3'>Copy of connection contract with DEDDIE</p></div></div>",
+        },
+         {
+            "item":" <div class='content-details'><div><p class='point mb-0'>1. Identity</p><p class='mt-0 point-detail px-3'>Photocopy of ID (2 side) of Passport or ResidencePermit or Driver's License</p></div><div><p class='point mb-0'>2. Connection contract with DEDDIE</p><ul class='point-detail px-4'> <li>Copy of list bill</li><li>Proof of payment if the due date has passed</li> <li>Lorem ipsum dolor sit amet.</li></ul></div></div>",
+        }
+        
+    ]
+    
+    // ***** Tab 5 Json End *****
+ }
+var jsonObject = {
+    "connectionType_radio_Cards": [
+        {
+            "id": "connection_card1",
+            "val":"Electricity",
+            "text": "Electricity",
+            "image": "/Assets/images/electricity_icon.png",
+            "cardClass": "card-img pt-3 pb-3"
+        },
+        {
+            "id": "connection_card2",
+            "val":"Natural Gas",
+            "text": "Natural gas",
+            "image": "/Assets/images/gas_icon.png",
+            "cardClass": "card-img pt-3 pb-3"
+        },
+        {
+            "id": "connection_card3",      
+            "val":"Electricity-and-Natural-gas",
+            "text": "Electricity and Natural gas",
+            "image": "/Assets/images/electricity_gas_icon.png",
+            "cardClass": "card-img pb-5 pt-0 "
+        },
+    ],
+
+    // ***** Tab 2 Json *****
+    "propertyTypeCards":[
+        {
+            "id": "property_card1",
+            "val":"Home",
+            "text": "Home",
+            "image": "/Assets/images/home.png",
+            // "cardClass": "card-img pt-3 pb-3"
+        },
+        {
+            "id": "property_card2",
+            "val":"The_business",
+            "text": "The business",
+            "image": "/Assets/images/company.png",
+            // "cardClass": "card-img pt-3 pb-3"
+        },
+        {
+            "id": "property_card3",      
+            "val": "Common area of an apartment building",
+            "text": "Common area of an apartment building",
+            "image": "/Assets/images/apartment.png",
+            // "cardClass": "card-img pb-5 pt-0 "
+        },
+    ],
+    
+
+    "homeFormGroup1":[
+        {
+            "id":"btn-yes",
+            "val":"Yes",
+        },
+        {
+            "id":"btn-no",
+            "val":"No",
+        }
+    ],   
+
+     "homeFormGroup2":[
+        {
+            "id":"btn-yes2",
+            "val":"Yes",
+        },
+        {
+            "id":"btn-no2",
+            "val":"No",
+        }
+    ], 
+    "homeFormGroup3":[
+        {
+            "id":"btn-change1",
+            "val":"Change provider",
+        },
+        {
+            "id":"btn-connection1",
+            "val":"New Connection",
+        }, 
+        {
+            "id":"btn-re-elect1",
+            "val":"Re-electrification",
+        },
+    ], 
+    "homeFormGroup4":[
+        {
+            "id":"btn-daily",
+            "val":"Daily",
+        },
+        {
+            "id":"btn-noct",
+            "val":"Nocturnal",
+        }, 
+        {
+            "id":"btn-re-elect1",
+            "val":"Re-electrification",
+        },
+    ], 
+    "businessFormGroup1":[
+        {
+            "id":"btn-upto",
+            "val":"Up to 25KVa (C-21)",
+        },
+        {
+            "id":"btn-from",
+            "val":"From 25 to 250 kVa (C-22)",
+        }, 
+        {
+            "id":"btn-re-elect2",
+            "val":"Re-electrification",
+        },
+    ],
+    "apartmentFormGroup1":[
+        {
+            "id":"btn-yes3",
+            "val":"Yes",
+        },
+        {
+            "id":"btn-no3",
+            "val":"No",
+        }
+    ], 
+    "apartmentFormGroup2":[
+        {
+            "id":"btn-change",
+            "val":"Change provider",
+        },
+        {
+            "id":"btn-connection",
+            "val":"New Connection",
+        }, 
+        {
+            "id":"btn-re-elect1",
+            "val":"Re-electrification3",
+        },
+    ],
+    // ***** Tab 2 Json End *****
+
+    // ***** Tab 3 Json *********
+
+    "carouselCards":[
+        {
+            "id":"carousel-card1",
+            "val":"Volton Unique Flexi Plus",
+            "image":"/Assets/images/day_home_flexi.png"
+        },
+        
+        {
+            "id":"carousel-card2",
+            "val":"carousel-card2",
+            "image":"/Assets/images/day_home_flat.png"
+        },
+        
+        {
+            "id":"carousel-card3",
+            "val":"carousel-card3",
+            "image":"/Assets/images/day_home_flexi_plus.png"
+        },
+        {
+            "id":"carousel-card4",
+            "val":"carousel-card4",
+            "image":"/Assets/images/day_home_flexi_plus.png"
+        },
+        
+        {
+            "id":"carousel-card5",
+            "val":"carousel-card5",
+            "image":"/Assets/images/day_home_flat.png"
+        },
+        
+        {
+            "id":"carousel-card6",
+            "val":"carousel-card6",
+            "image":"/Assets/images/day_home_flexi.png"
+        },
+        // {
+        //     "id":"carousel-card7",
+        //     "val":"carousel-card7",
+        //     "image":"/Assets/images/day_home_free.png"
+        // },{
+        //     "id":"carousel-card8",
+        //     "val":"carousel-card8",
+        //     "image":"/Assets/images/day_home_flexi.png"
+        // },
+    ],
+
+    // ***** Tab 3 Json End *****
+
+    // ***** Tab 5 Json  *****
+    "tab5Cards":[
+        {
+            "id":"t5c1",
+            "textId":"t5t1",
+            "val":"Change provider",
+            "subText":"The meter is in my name"
+        },
+        {
+            "id":"t5c2",
+            "textId":"t5t2",
+            "val":"Change provider",
+            "subText":"The meter is in another name"
+        },
+        {
+            "id":"t5c3",
+            "textId":"t5t3",
+            "val":"Initial Electrification/New connection"
+        },
+        {
+            "id":"t5c4",
+            "textId":"t5t4",
+            "val":"Re-electrification",
+        },
+        
+    ],
+    "tab5Content":[
+        {
+            "item":" <div class='content-details'><div><p class='point mb-0'>1. Identity</p><p class='mt-0 point-detail px-3'>Photocopy of ID (2 side) of Passport or ResidencePermit or Driver's License</p></div><div><p class='point mb-0'>2. Account</p><ul class='point-detail px-4'> <li>Copy of list bill</li><li>Proof of payment if the due date has passed</li></ul></div></div>",
+        },
+         {
+            "item":" <div class='content-details'><div><p class='point mb-0'>1. Identity</p><p class='mt-0 point-detail px-3'>Photocopy of ID (2 side) of Passport or ResidencePermit or Driver's License</p></div><div><p class='point mb-0'>2. Account</p><ul class='point-detail px-4'> <li>Copy of list bill</li><li>Proof of payment if the due date has passed</li> <li>Lorem ipsum dolor sit amet.</li></ul></div></div>",
+        },
+         {
+            "item":" <div class='content-details'><div><p class='point mb-0'>1. Identity</p><p class='mt-0 point-detail px-3'>Photocopy of ID (2 side) of Passport or ResidencePermit or Driver's License</p></div><div>  <p class='point mb-0'>2. Connection contract with DEDDIE</p><p class='mt-0 point-detail px-3'>Copy of connection contract with DEDDIE</p></div></div>",
+        },
+         {
+            "item":" <div class='content-details'><div><p class='point mb-0'>1. Identity</p><p class='mt-0 point-detail px-3'>Photocopy of ID (2 side) of Passport or ResidencePermit or Driver's License</p></div><div><p class='point mb-0'>2. Connection contract with DEDDIE</p><ul class='point-detail px-4'> <li>Copy of list bill</li><li>Proof of payment if the due date has passed</li> <li>Lorem ipsum dolor sit amet.</li></ul></div></div>",
+        }
+        
+    ]
+    
+    // ***** Tab 5 Json End *****
+ }
+var jsonObject = {
+    "connectionType_radio_Cards": [
+        {
+            "id": "connection_card1",
+            "val":"Electricity",
+            "text": "Electricity",
+            "image": "/Assets/images/electricity_icon.png",
+            "cardClass": "card-img pt-3 pb-3"
+        },
+        {
+            "id": "connection_card2",
+            "val":"Natural Gas",
+            "text": "Natural gas",
+            "image": "/Assets/images/gas_icon.png",
+            "cardClass": "card-img pt-3 pb-3"
+        },
+        {
+            "id": "connection_card3",      
+            "val":"Electricity-and-Natural-gas",
+            "text": "Electricity and Natural gas",
+            "image": "/Assets/images/electricity_gas_icon.png",
+            "cardClass": "card-img pb-5 pt-0 "
+        },
+    ],
+
+    // ***** Tab 2 Json *****
+    "propertyTypeCards":[
+        {
+            "id": "property_card1",
+            "val":"Home",
+            "text": "Home",
+            "image": "/Assets/images/home.png",
+            // "cardClass": "card-img pt-3 pb-3"
+        },
+        {
+            "id": "property_card2",
+            "val":"The_business",
+            "text": "The business",
+            "image": "/Assets/images/company.png",
+            // "cardClass": "card-img pt-3 pb-3"
+        },
+        {
+            "id": "property_card3",      
+            "val": "Common area of an apartment building",
+            "text": "Common area of an apartment building",
+            "image": "/Assets/images/apartment.png",
+            // "cardClass": "card-img pb-5 pt-0 "
+        },
+    ],
+    
+
+    "homeFormGroup1":[
+        {
+            "id":"btn-yes",
+            "val":"Yes",
+        },
+        {
+            "id":"btn-no",
+            "val":"No",
+        }
+    ],   
+
+     "homeFormGroup2":[
+        {
+            "id":"btn-yes2",
+            "val":"Yes",
+        },
+        {
+            "id":"btn-no2",
+            "val":"No",
+        }
+    ], 
+    "homeFormGroup3":[
+        {
+            "id":"btn-change1",
+            "val":"Change provider",
+        },
+        {
+            "id":"btn-connection1",
+            "val":"New Connection",
+        }, 
+        {
+            "id":"btn-re-elect1",
+            "val":"Re-electrification",
+        },
+    ], 
+    "homeFormGroup4":[
+        {
+            "id":"btn-daily",
+            "val":"Daily",
+        },
+        {
+            "id":"btn-noct",
+            "val":"Nocturnal",
+        }, 
+        {
+            "id":"btn-re-elect1",
+            "val":"Re-electrification",
+        },
+    ], 
+    "businessFormGroup1":[
+        {
+            "id":"btn-upto",
+            "val":"Up to 25KVa (C-21)",
+        },
+        {
+            "id":"btn-from",
+            "val":"From 25 to 250 kVa (C-22)",
+        }, 
+        {
+            "id":"btn-re-elect2",
+            "val":"Re-electrification",
+        },
+    ],
+    "apartmentFormGroup1":[
+        {
+            "id":"btn-yes3",
+            "val":"Yes",
+        },
+        {
+            "id":"btn-no3",
+            "val":"No",
+        }
+    ], 
+    "apartmentFormGroup2":[
+        {
+            "id":"btn-change",
+            "val":"Change provider",
+        },
+        {
+            "id":"btn-connection",
+            "val":"New Connection",
+        }, 
+        {
+            "id":"btn-re-elect1",
+            "val":"Re-electrification3",
+        },
+    ],
+    // ***** Tab 2 Json End *****
+
+    // ***** Tab 3 Json *********
+
+    "carouselCards":[
+        {
+            "id":"carousel-card1",
+            "val":"Volton Unique Flexi Plus",
+            "image":"/Assets/images/day_home_flexi.png"
+        },
+        
+        {
+            "id":"carousel-card2",
+            "val":"Volton Unique Flexi Plus",
+            "image":"/Assets/images/day_home_flat.png"
+        },
+        
+        {
+            "id":"carousel-card3",
+            "val":"Volton Unique Flexi Plus",
+            "image":"/Assets/images/day_home_flexi_plus.png"
+        },
+        {
+            "id":"carousel-card4",
+            "val":"Volton Unique Flexi Plus",
+            "image":"/Assets/images/day_home_flexi_plus.png"
+        },
+        
+        {
+            "id":"carousel-card5",
+            "val":"Volton Unique Flexi Plus",
+            "image":"/Assets/images/day_home_flat.png"
+        },
+        
+        {
+            "id":"carousel-card6",
+            "val":"Volton Unique Flexi Plus",
+            "image":"/Assets/images/day_home_flexi.png"
+        },
+        // {
+        //     "id":"carousel-card7",
+        //     "val":"carousel-card7",
+        //     "image":"/Assets/images/day_home_free.png"
+        // },{
+        //     "id":"carousel-card8",
+        //     "val":"carousel-card8",
+        //     "image":"/Assets/images/day_home_flexi.png"
+        // },
+    ],
+
+    // ***** Tab 3 Json End *****
+
+    // ***** Tab 5 Json  *****
+    "tab5Cards":[
+        {
+            "id":"applicationCard1",
+            "textId":"applicationCardText1",
+            "val":"Change provider",
+            "subText":"The meter is in my name"
+        },
+        {
+            "id":"applicationCard2",
+            "textId":"applicationCardText2",
+            "val":"Change provider",
+            "subText":"The meter is in another name"
+        },
+        {
+            "id":"applicationCard3",
+            "textId":"applicationCardText3",
+            "val":"Initial Electrification/New connection"
+        },
+        {
+            "id":"applicationCard4",
+            "textId":"applicationCardText4",
+            "val":"Re-electrification",
+        },
+        
+    ],
+    "tab5Content":[
+        {
+            "item":" <div class='content-details'><div><p class='point mb-0'>1. Identity</p><p class='mt-0 point-detail px-3'>Photocopy of ID (2 side) of Passport or ResidencePermit or Driver's License</p></div><div><p class='point mb-0'>2. Account</p><ul class='point-detail px-4'> <li>Copy of list bill</li><li>Proof of payment if the due date has passed</li></ul></div></div>",
+        },
+         {
+            "item":" <div class='content-details'><div><p class='point mb-0'>1. Identity</p><p class='mt-0 point-detail px-3'>Photocopy of ID (2 side) of Passport or ResidencePermit or Driver's License</p></div><div><p class='point mb-0'>2. Account</p><ul class='point-detail px-4'> <li>Copy of list bill</li><li>Proof of payment if the due date has passed</li> <li>Lorem ipsum dolor sit amet.</li></ul></div></div>",
+        },
+         {
+            "item":" <div class='content-details'><div><p class='point mb-0'>1. Identity</p><p class='mt-0 point-detail px-3'>Photocopy of ID (2 side) of Passport or ResidencePermit or Driver's License</p></div><div>  <p class='point mb-0'>2. Connection contract with DEDDIE</p><p class='mt-0 point-detail px-3'>Copy of connection contract with DEDDIE</p></div></div>",
+        },
+         {
+            "item":" <div class='content-details'><div><p class='point mb-0'>1. Identity</p><p class='mt-0 point-detail px-3'>Photocopy of ID (2 side) of Passport or ResidencePermit or Driver's License</p></div><div><p class='point mb-0'>2. Connection contract with DEDDIE</p><ul class='point-detail px-4'> <li>Copy of list bill</li><li>Proof of payment if the due date has passed</li> <li>Lorem ipsum dolor sit amet.</li></ul></div></div>",
+        }
+        
+    ]
+    
+    // ***** Tab 5 Json End *****
+ }
